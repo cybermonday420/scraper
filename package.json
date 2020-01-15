@@ -5,7 +5,8 @@
   "author": "robbywashere <robertapolana@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon"
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon"
   },
   "dependencies": {
     "@types/node": "^13.1.6",
